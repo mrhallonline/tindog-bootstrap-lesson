@@ -65,14 +65,34 @@ h1 {
 
 /*** Features Section */
 #features {
-height: 400px;
-background-color: yellowgreen;
+height: 450px;
+background-color: ;
+color: #8f8f8f;
+}
 
+.features-row {
+    padding-top: 7%
+}
+
+
+.features-column {
+    text-align: center;
+}
+
+.features-column h3 {
+    color: #000;
+    font-weight: 600;
+    font-size: 1.5rem;
+    
 }
 
 .features-icon {
     font-size: 3rem;
     color: #EF8172;
-    padding: 10px 35%;
+    margin-bottom: 1rem;
     
+}
+
+.features-icon:hover{
+    color: #ff4c68;
 }
