@@ -11,6 +11,14 @@ h2 {
     font-weight: 700;
 }
 
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 700;
+
+}
+
 
 /**** Navigation Bar *****/
 
@@ -151,3 +159,49 @@ padding: 3% 2%
 
 }
 
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+
+    }
+    
+    .title-image{
+        position: static;
+        transform: rotate(0);
+
+    }
+}
+
+
+/* ***CTA Section */
+
+#cta{
+background-color: #ff4c68;
+padding: 7% 22%;
+color: #fff;
+text-align: center;
+}
+
+#cta h3 {
+     font-family: "Montserrat-Black", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;padding-bottom: 2%;
+}
+
+#cta button {
+ margin: 7% 3%;
+}
+
+/* **Footer Section */
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+
+}
+
+.social-icon {
+margin: 20px 10px;
+
+}
