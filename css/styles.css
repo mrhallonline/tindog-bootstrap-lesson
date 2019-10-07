@@ -45,11 +45,14 @@ h2 {
 .title-image {
     width: 60%;
     transform: rotate(20deg);
+    position: absolute;
+    right: 30%;
+   
 }
 
 /************Title************/
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 
 }
 
@@ -71,7 +74,9 @@ h1 {
 /*** Features Section */
 #features {
 height: 450px;
-background-color: ;
+background-color:#fff;
+
+    position: relative;
 color: #8f8f8f;
 }
 
